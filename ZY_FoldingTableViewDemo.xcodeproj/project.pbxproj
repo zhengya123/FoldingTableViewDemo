@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7A5A4831FC6CE2700450D16 /* ChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5A4801FC6CE2700450D16 /* ChineseString.m */; };
+		C7A5A4841FC6CE2700450D16 /* pinyin.c in Sources */ = {isa = PBXBuildFile; fileRef = C7A5A4811FC6CE2700450D16 /* pinyin.c */; };
+		C7A5A48C1FC6CE2C00450D16 /* NSArray+UnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5A4871FC6CE2C00450D16 /* NSArray+UnicodeReadable.m */; };
+		C7A5A48D1FC6CE2C00450D16 /* NSDictionary+UnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5A4891FC6CE2C00450D16 /* NSDictionary+UnicodeReadable.m */; };
+		C7A5A48E1FC6CE2C00450D16 /* NSSet+UnicodeReadable.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A5A48B1FC6CE2C00450D16 /* NSSet+UnicodeReadable.m */; };
 		C7F6C0731FC5505B00D2C2AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F6C0721FC5505B00D2C2AE /* main.m */; };
 		C7F6C0761FC5505B00D2C2AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F6C0751FC5505B00D2C2AE /* AppDelegate.m */; };
 		C7F6C0791FC5505B00D2C2AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7F6C0781FC5505B00D2C2AE /* ViewController.m */; };
@@ -39,6 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C7A5A47F1FC6CE2700450D16 /* ChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChineseString.h; sourceTree = "<group>"; };
+		C7A5A4801FC6CE2700450D16 /* ChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChineseString.m; sourceTree = "<group>"; };
+		C7A5A4811FC6CE2700450D16 /* pinyin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pinyin.c; sourceTree = "<group>"; };
+		C7A5A4821FC6CE2700450D16 /* pinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pinyin.h; sourceTree = "<group>"; };
+		C7A5A4861FC6CE2C00450D16 /* NSArray+UnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+UnicodeReadable.h"; sourceTree = "<group>"; };
+		C7A5A4871FC6CE2C00450D16 /* NSArray+UnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+UnicodeReadable.m"; sourceTree = "<group>"; };
+		C7A5A4881FC6CE2C00450D16 /* NSDictionary+UnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+UnicodeReadable.h"; sourceTree = "<group>"; };
+		C7A5A4891FC6CE2C00450D16 /* NSDictionary+UnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+UnicodeReadable.m"; sourceTree = "<group>"; };
+		C7A5A48A1FC6CE2C00450D16 /* NSSet+UnicodeReadable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+UnicodeReadable.h"; sourceTree = "<group>"; };
+		C7A5A48B1FC6CE2C00450D16 /* NSSet+UnicodeReadable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+UnicodeReadable.m"; sourceTree = "<group>"; };
 		C7F6C06E1FC5505B00D2C2AE /* ZY_FoldingTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZY_FoldingTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7F6C0721FC5505B00D2C2AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C7F6C0741FC5505B00D2C2AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -89,6 +104,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7A5A47E1FC6CE2700450D16 /* Pinyin */ = {
+			isa = PBXGroup;
+			children = (
+				C7A5A47F1FC6CE2700450D16 /* ChineseString.h */,
+				C7A5A4801FC6CE2700450D16 /* ChineseString.m */,
+				C7A5A4811FC6CE2700450D16 /* pinyin.c */,
+				C7A5A4821FC6CE2700450D16 /* pinyin.h */,
+			);
+			path = Pinyin;
+			sourceTree = "<group>";
+		};
+		C7A5A4851FC6CE2C00450D16 /* UnicodeReadable */ = {
+			isa = PBXGroup;
+			children = (
+				C7A5A4861FC6CE2C00450D16 /* NSArray+UnicodeReadable.h */,
+				C7A5A4871FC6CE2C00450D16 /* NSArray+UnicodeReadable.m */,
+				C7A5A4881FC6CE2C00450D16 /* NSDictionary+UnicodeReadable.h */,
+				C7A5A4891FC6CE2C00450D16 /* NSDictionary+UnicodeReadable.m */,
+				C7A5A48A1FC6CE2C00450D16 /* NSSet+UnicodeReadable.h */,
+				C7A5A48B1FC6CE2C00450D16 /* NSSet+UnicodeReadable.m */,
+			);
+			path = UnicodeReadable;
+			sourceTree = "<group>";
+		};
 		C7F6C0651FC5505B00D2C2AE = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +151,8 @@
 		C7F6C0701FC5505B00D2C2AE /* ZY_FoldingTableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				C7A5A4851FC6CE2C00450D16 /* UnicodeReadable */,
+				C7A5A47E1FC6CE2700450D16 /* Pinyin */,
 				C7F6C0A41FC5508700D2C2AE /* ZY_FoldingTableView */,
 				C7F6C0741FC5505B00D2C2AE /* AppDelegate.h */,
 				C7F6C0751FC5505B00D2C2AE /* AppDelegate.m */,
@@ -303,12 +344,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A5A4841FC6CE2700450D16 /* pinyin.c in Sources */,
+				C7A5A48E1FC6CE2C00450D16 /* NSSet+UnicodeReadable.m in Sources */,
 				C7F6C0791FC5505B00D2C2AE /* ViewController.m in Sources */,
 				C7F6C0761FC5505B00D2C2AE /* AppDelegate.m in Sources */,
 				C7F6C0731FC5505B00D2C2AE /* main.m in Sources */,
 				C7F6C0A71FC550B600D2C2AE /* ZYFoldingSectionHeader.m in Sources */,
 				C7F6C0AA1FC552C000D2C2AE /* ZYFoldingTableView.m in Sources */,
 				C7F6C0AD1FC558FB00D2C2AE /* ZYTestViewController.m in Sources */,
+				C7A5A48C1FC6CE2C00450D16 /* NSArray+UnicodeReadable.m in Sources */,
+				C7A5A48D1FC6CE2C00450D16 /* NSDictionary+UnicodeReadable.m in Sources */,
+				C7A5A4831FC6CE2700450D16 /* ChineseString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +594,7 @@
 				C7F6C09D1FC5505B00D2C2AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7F6C09E1FC5505B00D2C2AE /* Build configuration list for PBXNativeTarget "ZY_FoldingTableViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +603,7 @@
 				C7F6C0A01FC5505B00D2C2AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7F6C0A11FC5505B00D2C2AE /* Build configuration list for PBXNativeTarget "ZY_FoldingTableViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +612,7 @@
 				C7F6C0A31FC5505B00D2C2AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
